@@ -3,17 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>[Realityshift Technologies] - Innovative Technological Solutions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="hero">
+            <h1>Transforming Ideas into Reality</h1>
+            <p>Innovative Technological Solutions for a Better Tomorrow</p>
+            <button onclick="scrollToSection('contact')">Get Started</button>
+        </div>
+    </header>
 
-<h1 title="House Of Prayer Church Of All Nations" style="text-align: center;">House Of Prayer Church Of All Nations</h1>
-<h2 style="text-align: center;">MISSION</h2>
-<p>We are here for a mission,commission to serve a purpose our purpose, is to deliver our people from the powers of darkness and to transform their minds.</p>
-<p>Romans 12:2</p>
-<br/>
-<h3 style="text-align: center;">VISION</h3>
-<P>Our vision is to build a healing center, a place where Jesus is Lord and we are kings.</P>
+    <section id="about">
+        <h2>Who We Are</h2>
+        <p>At [Realityshift Technologies], we are passionate about bringing 
+             innovative technological projects to life.
+             Our team of experts is dedicated to turning your visionary ideas into 
+             groundbreaking solutions.</p>
+        <button onclick="scrollToSection('services')">Learn More About Us</button>
+    </section>
 
+    <section id="services">
+        <h2>What We Offer</h2>
+        <div class="service">
+            <h3>Custom Development</h3>
+            <p>Tailored solutions to meet your specific needs.</p>
+        </div>
+        <div class="service">
+            <h3>Prototyping</h3>
+            <p>Transforming ideas into tangible prototypes.</p>
+        </div>
+        <div class="service">
+            <h3>Consulting Services</h3>
+            <p>Expert advice and guidance at every stage of your project.</p>
+        </div>
+        <div class="service">
+            <h3>Collaboration</h3>
+            <p>Partnering with you to achieve success together.</p>
+        </div>
+        <button onclick="scrollToSection('projects')">Explore Our Services</button>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <p>Project Description 1</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <p>Project Description 2</p>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3">
+            <p>Project Description 3</p>
+        </div>
+        <button onclick="scrollToSection('testimonials')">View More Projects</button>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Working with [Business Name] was a game-changer for our business."</p>
+        </div>
+        <div class="testimonial">
+            <p>"Their innovative solutions helped us achieve our goals."</p>
+        </div>
+        <div class="testimonial">
+            <p>"A team of true professionals and visionaries."</p>
+        </div>
+        <button onclick="scrollToSection('contact')">Read More Testimonials</button>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Ready to embark on your next technological venture?
+           Contact us today to discuss how we can bring your ideas to fruition.</p>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Phone: (266) 51972500</p>
+        <p>Email: bakoenamakhetha12@gmail.com</p>
+        <p>Address: 123 Innovation Drive, Tech City, TC 12345</p>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>© 2024 [Realityshift Technologies]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
